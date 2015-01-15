@@ -1,0 +1,1 @@
+web: gunicorn beautiful_words.wsgi --log-file -

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if words %}	
+  {% for word in words %}
+    <div class="span12">
+      <div class="alert alert-info">
+        {{ word.word }}
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>No words yet.</p>
+{% endif %}
+
+{% endblock %}
