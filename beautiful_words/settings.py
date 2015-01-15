@@ -63,19 +63,19 @@ WSGI_APPLICATION = 'beautiful_words.wsgi.application'
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
 # Development
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+"""
 
 # Production
-"""
 DATABASES = {
     'default': dj_database_url.config()
 }
-"""
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
