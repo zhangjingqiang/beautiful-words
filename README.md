@@ -7,7 +7,7 @@ The beautiful word can make you powerful.
 
 # Installation
 
-```python
+```
 $ mkvirtualenv beautiful_words
 $ pip install -r requirements.txt
 $ python manage.py sqlmigrate words 0001
